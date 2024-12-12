@@ -38,7 +38,7 @@ int main()
         if (p >= m && p <= n)
             start = 2 * p;
         for (int j = start; j <= n; j += p)
-        {
+        { //this is the new page
             // if the first multiple we find is out of bound so till then it reaches m we continue;
             if (j < m)
                 continue;
