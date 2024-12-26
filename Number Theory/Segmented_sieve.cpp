@@ -1,4 +1,4 @@
-#include <bits/stdc++.h>
+#include<bits/stdc++.h> 
 using namespace std;
 
 void sieveOfEratosthenes(int number, vector<long long> &sieve, vector<int> &preComputedPrimes)
