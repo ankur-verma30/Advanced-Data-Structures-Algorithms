@@ -20,8 +20,7 @@ int main(){
     memset(dp, false, sizeof(dp));
 
      for (int i = 0; i <= n; i++) dp[i][0] = true;  // Subset sum 0 is always true
-    for (int j = 1; j <= sum; j++) dp[0][j] = false;  // Empty subset cannot achieve sum > 0
-
+     
     // Fill DP table
     for (int i = 1; i <= n; i++) {
         for (int j = 1; j <= sum; j++) {
